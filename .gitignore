@@ -1,0 +1,14 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+appsettings.Development.json
+/.idea/.idea.APM/.idea/.name
+
+
+/API/Uploads/
+/API/bin/
+/API/obj/
+
+docker stop feature-cicd-server-img docker run -p $SERVER_PORT83:$SERVER_PORT -d  $DOCKER_HUB_USERNAME/cgms:8996456aa4dc2925f38be2233a1ced3f1a7b59f4

@@ -1,0 +1,8 @@
+[
+  {"Name": "ITAdministrator"},
+  {"Name": "Sponsor"},
+  {"Name": "METechnician"},
+  {"Name": "ComplaintManager"},
+  {"Name": "ComplaintTechnician"},
+  {"Name": "Complainer"}
+]

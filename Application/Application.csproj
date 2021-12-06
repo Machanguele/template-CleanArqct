@@ -1,0 +1,76 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Domain\Domain.csproj" />
+      <ProjectReference Include="..\Persistence\Persistence.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="10.1.1" />
+      <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+      <PackageReference Include="FluentValidation.AspNetCore" Version="10.0.4" />
+      <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+      <PackageReference Include="Twilio" Version="5.60.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Features\Auth\Queries\Handlers" />
+      <Folder Include="Features\Auth\Queries\RequestModels" />
+      <Folder Include="Features\Auth\Queries\Validators" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Update="Resourcers\Users\index.en.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>index.en.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resourcers\Test.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Test.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resources\Localize.TestQuery+TestQuery1Handler.en-US.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Localize.TestQuery+TestQuery1Handler.en-US.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Remove="Resources\Complaint.resx" />
+      <EmbeddedResource Remove="Resources\ListComplaintsByComplaintStatusHandler.resx" />
+      <EmbeddedResource Update="Resources\SharedResources.pt-PT.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>SharedResources.pt-PT.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resources\SharedResources.en-US.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>SharedResources.en-US.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Resourcers\Users\index.en.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>index.en.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resourcers\Test.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Test.resx</DependentUpon>
+      </Compile>
+      <Compile Remove="Resources\Complaint.Designer.cs" />
+      <Compile Remove="Resources\ListComplaintsByComplaintStatusHandler.Designer.cs" />
+      <Compile Update="Resources\SharedResources.pt-PT.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>SharedResources.pt.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resources\SharedResources.en-US.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>SharedResources.en-US.resx</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
+</Project>

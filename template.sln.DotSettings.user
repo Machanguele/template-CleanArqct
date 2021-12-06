@@ -1,0 +1,44 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ad67c28b_002D5438_002D4261_002D9f7d_002Daf78e3ab45cb/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CommandIsValid_Execute_Success" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::26F9B66F-44FB-4AE5-90A5-3AC01F6D1DE5::net5.0::UnitTest.Features.ComplaintTypesTest.CreateComplaintTypeTest.CommandIsValid_Execute_Success&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::26F9B66F-44FB-4AE5-90A5-3AC01F6D1DE5::net5.0::UnitTest.Features.ComplaintTypesTest.ListComplaintTypeTest.ListComplaintType_success&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::26F9B66F-44FB-4AE5-90A5-3AC01F6D1DE5::net5.0::UnitTest.Features.ComplaintTypesTest.CreateComplaintTypeTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::26F9B66F-44FB-4AE5-90A5-3AC01F6D1DE5::net5.0::UnitTest.Features.ComplaintTypesTest.GetComplaintTypeByIdTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b495bccd_002D1b43_002D45a8_002D837c_002Deb237db2a1fa/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetComplaintTypeByIdTest_success #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::26F9B66F-44FB-4AE5-90A5-3AC01F6D1DE5::net5.0::UnitTest.Features.ComplaintTypesTest.GetComplaintTypeByIdTest.GetComplaintTypeByIdTest_success&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f6375684_002D1618_002D45c1_002Dab8b_002D5137824d1b8c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetComplaintTypeByIdTest_success" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::26F9B66F-44FB-4AE5-90A5-3AC01F6D1DE5::net5.0::UnitTest.Features.ComplaintTypesTest.GetComplaintTypeByIdTest.GetComplaintTypeByIdTest_success&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=Application_002FResources_002FLocalize_002ETestQuery_002BTestQuery1Handler/@EntryIndexedValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=Application_002FResources_002FSharedResources/@EntryIndexedValue">True</s:Boolean>
+	
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/Initialized/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/ShowOnlyStringResources/@EntryValue">True</s:Boolean></wpf:ResourceDictionary>
